@@ -1,18 +1,17 @@
-> **My Repo's Journey**
+<h1>**My Repo's Journey**</h1>
 Welcome to my Projects repository! Here, you'll find a collection of projects that I've worked on throughout my computer science journey. From beginner exercises to more advanced applications, this repository showcases my growth and learning in the field.
 
-**Table of Contents
-**
+<h2>Table of Contents</h2>
 Introduction
 Projects
 How to Use
 Contributing
 License
 
-**Introduction**
+<h2>**Introduction**</h2>
 As a passionate computer science enthusiast, I've embarked on a journey to explore various domains within the field. This repository serves as a portfolio of my projects, reflecting my interests, skills, and dedication to continuous learning.
 
-**Projects**
+<h2>**Projects**</h2>
 Here's a brief overview of the projects included in this repository:
 
 **Project 1: [tic-tac-toe]**
