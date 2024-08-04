@@ -18,8 +18,8 @@ Here's a brief overview of the projects included in this repository:
 [tic-tac-toe]
 [Brief explanation of what the project does and what technologies were used]
 
-**Project 2: [Description of Project 2]**
-[Link to Project 2]
+**Project 2: [DonutWebsite]**
+[donutWebsite]
 [Brief explanation of what the project does and what technologies were used]
 
 **Project 3: [Description of Project 3]**
