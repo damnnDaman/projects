@@ -5,8 +5,7 @@ A basic frontend webpage using HTML, CSS and JS helps you to get a random joke u
 
 # Little Glimpse
 
-(screenshot
-
+Random_joke_generator/Screenshot 2024-08-05 174647.png
 
 
 ## Features
