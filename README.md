@@ -15,17 +15,10 @@ As a passionate computer science enthusiast, I've embarked on a journey to explo
 Here's a brief overview of the projects included in this repository:
 
 **Project 1: [tic-tac-toe]**
-[tic-tac-toe]
-[Brief explanation of what the project does and what technologies were used]
 
 **Project 2: [DonutWebsite]**
-[donutWebsite]
-[Brief explanation of what the project does and what technologies were used]
 
-**Project 3: [Description of Project 3]**
-[Link to Project 3]
-[Brief explanation of what the project does and what technologies were used]
-[Include more projects as needed]
+**Project 3: [github_profile_finder]**
 
 **How to Use**
 Each project in this repository comes with its own set of instructions and documentation. Please refer to the individual project folders for detailed guidance on how to set up, run, and interact with the projects.
