@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO - app</title>
+  </head>
+  <body>
+    <div class="container">
+      <input id="yotitle" type="text" placeholder="TODO" />
+      <input id="description" type="text" placeholder="description" />
+      <button onclick="addingTodo()" class="adding">Add todo</button>
+
+      <div class="afterAdding"></div>
+    </div>
+    <script>
+      let globalId = 0;
+       function markAsDone(todoId) {
+          const parent = document.getElementById(todoId);
+          parent.childNodes[2].innerHTML = "DONE! "
+          
+        }
+      function addingTodo() {
+        //todo container
+        const x = document.createElement("div");
+
+        // create a new todo and CHILD element
+        const task = document.createElement("div");
+        task.innerHTML = document.getElementById("yotitle").value;
+
+        const description = document.createElement("div");
+        description.innerHTML = document.getElementById("description").value;
+        
+        globalId++;
+        const done = document.createElement("button");
+        done.innerHTML = "Mark as Done";
+        done.setAttribute("onclick", `markAsDone(${globalId})`);
+        //appending as child
+        x.appendChild(task);
+        x.appendChild(description);
+        x.appendChild(done);
+        console.log(globalId);
+
+       
+
+        const originalHTML =
+          document.getElementsByClassName("afterAdding")[0].innerHTML;
+
+        //count of the todo
+        document.getElementsByClassName("afterAdding")[0].innerHTML =
+          originalHTML + `<div id = "${globalId}">${x.innerHTML}</div>`;
+      }
+    </script>
+  </body>
+</html>

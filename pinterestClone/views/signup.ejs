@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href= "/stylesheets/style.css" rel="stylesheet">
+    <title>Signup</title>
+</head>
+<body>
+    <div class = "container ">
+        <div>
+            <img class = "pinterest-logo" src="images/pinterestlogo.png"  alt="logo">
+        </div>
+        <div class="form-heading">
+          <div class="sub1">Welcome to Pinterest</div> 
+           <div class="sub2">Make account to see more</div> 
+      
+        </div>
+        
+        <form action="/register" method="POST">
+            <div class="input-group">
+            <label for="email">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="email"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="fullname"
+              id="name"
+              placeholder="Your fullname"
+              required
+            />
+          </div>
+           <div class="input-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Create Password"
+              required
+            />
+          </div>
+        
+            <button class=" submit">Continue</button>
+        
+        </form>
+        <p>OR</p>
+        <P>Already a member? <a href = "/login">login</a></P>
+       
+   </div>
+
+</body>
+</html>

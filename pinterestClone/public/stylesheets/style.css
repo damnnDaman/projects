@@ -1,0 +1,95 @@
+body {
+  
+  font: 14px "Lucida Grande", g Helvetica, Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #dadada;
+  display: flex;
+ 
+  justify-content: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container {
+  display: flex;
+ margin: 35px 20px 5px 20px;
+  width: 405px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+   
+  padding:2rem 2rem 1rem 2rem;
+  border-radius: 2rem;;
+  background-color: white;
+}
+
+.pinterest-logo {
+  width: 25vw; 
+  height: 10vw;
+}
+
+.input-group {
+  display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.input-group input {
+  width: 100%;
+    margin: 5px 0 ;
+   
+    padding: 12px 15px;
+    border: none;
+    border: 2px solid #dadada;
+    border-radius: 10px;
+}
+
+.form-heading {
+  font-size: larger;
+  text-align: center;
+  padding: 0px;
+  margin: 5px;
+}
+
+.form-heading .sub1 {
+  font-size: 25px;
+  margin: 2px;
+  font-weight: bold;
+}
+
+.form-heading .sub2 {
+  font-size: 19px;
+  margin: 2px 0px 8px 0px;
+  font-weight: 200;
+  
+}
+
+.submit{
+ 
+  background-color: rgb(212, 66, 66);
+width: 110%;
+font-size: larger;
+color: white;
+font-weight: 500;
+
+  margin: 10px 0px ;
+  padding: 12px 15px;
+  border: none;
+  border: 2px solid #dadada;
+  border-radius: 25px;
+  border-color: #dadada;
+
+}
+
+
+
+.login-options img {
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+}

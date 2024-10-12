@@ -1,0 +1,353 @@
+body {
+    background-color: black;
+    color: white;
+    
+}
+
+
+
+
+.home {
+  min-width: 20vw;
+
+    margin: 5px;
+    padding: 25px;
+
+}
+
+.home_img {
+    width: 22px;
+}
+
+.search_img {
+    width: 22px;
+}
+
+.right  {
+   min-width: 30vw;
+    padding-top: 5px;
+    position: relative;
+    
+}
+
+.border {
+   
+    margin: 10px;
+}
+
+
+
+.home ul li {
+    width: 22px;
+    display: flex;
+    gap: 20px;
+    color: rgb(138, 133, 133);
+    height: 40px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    list-style: none;
+   
+}
+
+.library {
+   
+    min-width: 20vw;
+    padding: 20px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    position: relative;
+
+}
+
+.libraryHeading {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+   
+    position: relative;
+
+}
+
+
+
+#more {
+    position: absolute;
+    right: 0px;
+    font-size: 25px;
+   
+}
+
+.library img {
+   
+   width: 22px;
+   height: 24px;       
+   
+}
+
+.library p {
+height: fit-content;
+}
+
+.home li :hover {
+    color: white;
+}
+
+.add-symbol {
+    font-size: xx-large;
+    
+    height: fit-content;
+  
+    position: absolute;
+    right: 0;
+    font-weight: 400;
+   
+   
+    
+}
+
+
+.footer {
+    display: flex;
+    font-size: 20px;   
+    gap: 13px;
+   
+    position: absolute;
+    bottom: 0;
+}
+
+.footer  a {
+    color: grey;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.header{
+    display: flex;
+   gap: 4px;
+   margin: 5px;
+   padding: 10px;
+
+    justify-content: space-between;
+}
+
+.nav img {
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 32px;
+   padding-top: 5px;
+    background-color: black;;
+}
+
+.button  {
+   
+    display: flex;
+    gap: 30px;
+    
+
+} 
+
+.btn {
+    border-radius: 1.5rem;
+    font-size: 17px;
+    height: 50px;
+    width: 90px;
+    transition: all 0.2s;
+}
+
+.white-btn {
+    background-color:transparent;
+   color: rgb(138, 133, 133);
+    font-size: 17px;
+    border: none
+    
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    font-size: large;
+}
+
+.white-btn:hover {
+    color: white;
+}
+
+.music-content {
+    background-color: rgb(42, 41, 41);
+    
+}
+
+.heading {
+    display:flex;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.card_container {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+
+
+}
+
+.card {
+    display: flex;
+    border-radius: 1rem;;
+    flex-direction: column;
+    padding: 10px;
+   
+   
+    transition: background-color 0.5s ease-in-out 0.1s;
+}
+
+.card h2{
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: -5px;
+    margin-top: 10px;
+   
+   
+}
+
+.card:hover {
+    background-color: rgb(68, 66, 66);
+}
+
+.card p {
+    font-weight: 100;
+    font-size: small;
+}
+
+.card button {
+    width: 20%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 197, 30);
+    border: none;
+    opacity: 0;
+   
+
+}
+
+.card button:hover {
+    opacity: 1;
+    
+}
+
+
+
+
+.playbar {
+    position: absolute;
+    bottom: 0;
+    border: 2px solid red;
+    background-color: #2e832e;
+    width:98%;
+    height: 50px;
+   
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.borderforsong {
+border: 1.5px solid white;
+padding: 10px;
+display: flex;
+    gap: 25px;
+    cursor: pointer;
+    justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 2px;
+        
+        
+       
+}
+
+.listofsongs ul li {
+   padding: 5px;
+    list-style: none;
+    font-size: larger;  
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:400;
+    color:white ; 
+    
+}
+.listofsongs  ul{
+height: 550px;
+overflow: scroll;
+}
+
+.songinfo {
+    padding-left: -10px;
+}
+
+
+
+.listofsongs ul li img {
+   width: 25px;
+    transition: all 0.1s ease-in-out;
+   
+   
+}
+
+.listofsongs ul li img :hover{  
+     transform: scale(1.2);
+}
+
+
+.seekbar {
+  height: 1px;
+    width: 97% ;
+    margin-top:20px;
+    border: 1px solid white;
+   background-color: white;
+    position: absolute;
+    bottom: 8px;
+    
+    
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    margin-left: -2px;
+    border-radius: 13px;
+    background-color: white;
+    position: relative;
+    bottom: 10px;
+    
+    
+z-index: 3;
+transition: left 0.3s;
+    
+}
+
+.songtitle {
+   font-size: larger;
+   top:1;
+  
+   
+   position: absolute;
+   left: 0;
+}
+
+.songbutton {
+    position: relative;
+   
+}
