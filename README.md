@@ -3,10 +3,14 @@
 Welcome to my Projects repository! Here, you'll find a collection of cool projects I've worked on throughout my computer science journey. From beginner exercises to more advanced applications, this repository reflects my growth, creativity, and passion for learning in the world of tech! 💻✨
 
 <h2>Table of Contents 📋</h2>
-- [Introduction](#introduction)  
+- [Introduction](#introduction) 
+
 - [Projects](#projects)  
+
 - [How to Use](#how-to-use)  
+
 - [Contributing](#contributing)  
+
 - [License](#license)
 
 <h2>**Introduction 🌟**</h2>
@@ -47,7 +51,7 @@ I welcome contributions and feedback from the community! If you have ideas for i
 
 <h3><strong>License 📜</strong></h3>
 
-This repository is licensed under the MIT License. Feel free to use and modify the code for educational and personal purposes. If you’re interested in using it for commercial purposes, just drop me a message for permission! 🙌
+This repository is licensed under the damnnDaman License. Feel free to use and modify the code for educational and personal purposes. If you’re interested in using it for commercial purposes, just drop me a message for permission! 🙌
 
 ---
 
